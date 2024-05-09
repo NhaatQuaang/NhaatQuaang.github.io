@@ -8,36 +8,59 @@
 
     body {
         font-family: 'Poppins', sans-serif;
-        background: #131313
+        background: #131313;
+    }
+
+    span {
+        -webkit-text-fill-color: #131313;
+        -webkit-text-stroke: #fff 0.15vh;
+    }
+
+    body h1 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 4px;
+        gap: 1vh;
     }
 
     div {
-        font-family: 'Poppins', sans-serif;
-        font-size: 40px;
-        font-weight: 1000;
+        font-family: "Jaro", sans-serif;
+        font-size: 180%;
+        overflow: auto;
+        word-spacing: 0px;
+        font-weight: 300;
         background: #fff;
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 
-    .center-screen {
-        display: flex;
+    footer {
+        background-color: #0c0c0c;
+        border-top-left-radius: 5vh;
+        border-top-right-radius: 5vh;
+        margin: auto;
         justify-content: center;
         align-items: center;
         padding-left: 4px;
-        min-height: 100vh;
+        gap: 10vh;
     }
 
-    footer {
-        background: rgba(0, 0, 0, 0.3);
+    .column {
+        font-family: "Oswald", sans-serif;
+        text-align: center;
     }
 
     .container {
         display: flex;
-        justify-content: center;
+        align-content: center;
         align-items: center;
-        padding: 0.5em 0.5em 0.5em 0.5rem;
-        gap: 3rem
+        padding-left: 7vh;
+        padding-right: 7vh;
+        padding-bottom: 1vh;
+        gap: 10vh;
+        font-size: 100%;
     }
 
     .container img {
@@ -46,19 +69,17 @@
         border-radius: 50%;
     }
 
-    .column {
-        font-family: "Montserrat", sans-serif;
-        font-size: 20px;
-        font-weight: 100;
-        display: grid;
-        background: aliceblue;
-        background-clip: text;
+    .socials {
+        display: flex;
+        font-size: 150%;
+        gap: 3vh;
+        text-align: center;
     }
 
-    .socials {
-        font-weight: 100;
-        background: aliceblue;
+    .copyright {
+        font-family: "Oswald", sans-serif;
+        text-align: center;
+        font-size: 100%;
+        font-weight: 5vh;
         background-clip: text;
-        display: flex;
-        gap: 0.5rem;
     }
