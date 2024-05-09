@@ -27,9 +27,8 @@
 
     div {
         font-family: "Jaro", sans-serif;
-        font-size: 180%;
+        font-size: 170%;
         overflow: auto;
-        word-spacing: 0px;
         font-weight: 300;
         background: #fff;
         background-clip: text;
