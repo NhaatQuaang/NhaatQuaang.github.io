@@ -5,17 +5,17 @@
         border: none;
         box-sizing: border-box;
     }
-
+    
     body {
         font-family: 'Poppins', sans-serif;
         background: #131313;
     }
-
+    
     span {
         -webkit-text-fill-color: #131313;
         -webkit-text-stroke: #fff 0.15vh;
     }
-
+    
     body h1 {
         height: 100vh;
         display: flex;
@@ -24,7 +24,7 @@
         padding-left: 4px;
         gap: 1vh;
     }
-
+    
     div {
         font-family: "Jaro", sans-serif;
         font-size: 180%;
@@ -35,7 +35,7 @@
         background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-
+    
     footer {
         background-color: #0c0c0c;
         border-top-left-radius: 5vh;
@@ -46,39 +46,39 @@
         padding-left: 4px;
         gap: 10vh;
     }
-
+    
     .column {
         font-family: "Oswald", sans-serif;
         text-align: center;
     }
-
+    
     .container {
         display: flex;
         align-content: center;
         align-items: center;
-        padding-left: 7vh;
-        padding-right: 7vh;
-        padding-bottom: 1vh;
+        padding-left: 7svh;
+        padding-right: 7svh;
+        padding-bottom: 1svh;
         gap: 10vh;
         font-size: 100%;
     }
-
+    
     .container img {
         width: 75px;
         height: 75px;
         border-radius: 50%;
     }
-
+    
     .socials {
         display: flex;
         font-size: 150%;
-        gap: 3vh;
+        gap: 3svh;
         text-align: center;
     }
-
+    
     .copyright {
         font-family: "Oswald", sans-serif;
-        text-align: center;
+        float: left;
         font-size: 100%;
         font-weight: 5vh;
         background-clip: text;
