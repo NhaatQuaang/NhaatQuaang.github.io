@@ -13,23 +13,22 @@
     
     span {
         -webkit-text-fill-color: #131313;
-        -webkit-text-stroke: #fff 0.15vh;
+        -webkit-text-stroke: #fff 0.15svh;
     }
     
     body h1 {
-        height: 100vh;
+        height: 100svh;
         display: flex;
         justify-content: center;
         align-items: center;
         padding-left: 4px;
-        gap: 1vh;
+        gap: 1svh;
     }
     
     div {
         font-family: "Jaro", sans-serif;
-        font-size: 180%;
+        font-size: 170%;
         overflow: auto;
-        word-spacing: 0px;
         font-weight: 300;
         background: #fff;
         background-clip: text;
@@ -38,13 +37,13 @@
     
     footer {
         background-color: #0c0c0c;
-        border-top-left-radius: 5vh;
-        border-top-right-radius: 5vh;
+        border-top-left-radius: 5svh;
+        border-top-right-radius: 5svh;
         margin: auto;
         justify-content: center;
         align-items: center;
         padding-left: 4px;
-        gap: 10vh;
+        gap: 10svh;
     }
     
     .column {
@@ -59,7 +58,7 @@
         padding-left: 7svh;
         padding-right: 7svh;
         padding-bottom: 1svh;
-        gap: 10vh;
+        gap: 10svh;
         font-size: 100%;
     }
     
@@ -80,6 +79,6 @@
         font-family: "Oswald", sans-serif;
         float: left;
         font-size: 100%;
-        font-weight: 5vh;
+        font-weight: 5svh;
         background-clip: text;
     }
