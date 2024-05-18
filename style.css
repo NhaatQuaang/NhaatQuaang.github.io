@@ -52,6 +52,33 @@
         -webkit-text-fill-color: transparent;
     }
     
+    button {
+        font-family: "Jaro", sans-serif;
+        background-color: transparent;
+        -webkit-text-fill-color: #fff;
+        border-radius: 7px;
+        border: 0.7svh solid #fff;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 4svh;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        transition: all 0.5s ease;
+        background-color: aliceblue;
+        -webkit-text-fill-color: #0c0c0c;
+    }
+    
+    .music-button {
+        padding-top: 3svh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-left: 4px;
+    }
+    
     footer {
         background-color: #0c0c0c;
         border-top-left-radius: 5svh;
