@@ -14,6 +14,15 @@ body {
     justify-content: center;
 }
 
+.Logo img {
+    width: 10svh;
+    height: 10svh;
+    border-radius: 50%;
+    margin-top: 2svh;
+    margin-left: 2svh;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
 .background {
     background-color: #131313;
     position: fixed;
@@ -40,7 +49,7 @@ body {
 
 .container {
     background-color: #e7e7e7;
-    height: 80svh;
+    height: 90svh;
     width: 90svw;
     border-radius: 20px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
