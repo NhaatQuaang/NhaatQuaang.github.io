@@ -109,7 +109,7 @@ const songs = [{
         artist: 'David Kushner',
     },
     {
-        path: 'assets/daylight.mp3',
+        path: 'assets/goldenhour.mp3',
         displayName: 'golden hour',
         cover: 'assets/goldenhour.jpg',
         artist: 'JVKE',
